@@ -10,8 +10,8 @@ from PIL import Image
 load_dotenv()
 
 # Configure Google Generative AI with your API key directly
-#GOOGLE_API_KEY = AIzaSyAAuTYtEy6FWouv298PSgMgzhQzCpppgow
-GOOGLE_API_KEY ="AIzaSyDxNdARaGB577zuKr7LyCwW-nVsA_jwfJA"# Replace this with your actual API key
+
+GOOGLE_API_KEY ="xxxxxxxxxxxxxxxxxxxxxxx"# Replace this with your actual API key
 
 try:
     genai.configure(api_key=GOOGLE_API_KEY)
